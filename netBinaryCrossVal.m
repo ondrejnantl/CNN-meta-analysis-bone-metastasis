@@ -10,7 +10,7 @@ clc
 
 % načtení připraveného datasetu po preprocessingu - nutno přepsat na
 % vlastní cestu k datasetu
-load('D:\andyn\OneDrive - Vysoké učení technické v Brně\bakalarka\data\getLesionsOutput032021\dataset05032021preprocessed.mat')
+load('datasetPreprocessed.mat')
 
 % augmentace
 forCVLabels(forCVLabels==2) = 1;

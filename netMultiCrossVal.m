@@ -10,7 +10,7 @@ clc
 
 % načtení připraveného datasetu po preprocessingu - nutno vyměnit za
 % vlastní cestu k datasetu
-load('D:\andyn\OneDrive - Vysoké učení technické v Brně\bakalarka\data\getLesionsOutput032021\dataset05032021preprocessed.mat')
+load('datasetPreprocessed.mat')
 
 % augmentace
 numOfAugObj = 2400;
@@ -29,7 +29,7 @@ k = 5;
 
 % rozdělení pacientů do foldů
 CV = [2 5; 1 6; 3 4; 8 9; 7 10];
-%save('D:\andyn\OneDrive - Vysoké učení technické v Brně\bakalarka\data\getLesionsOutput032021\dataset15032021augmented.mat')
+
 %% inicializace a učení sítě
 
 % inicializace vrstev
