@@ -37,6 +37,8 @@ perfScores - funkce sloužící pro výpočet úspněšnostních metrik vztažen
 
 prepareDataset - skript sloužící pro zisk jednotného datasetu a jeho přípravu a uložení před augmentací
 
+ROCgraph - skript pro tvorbu průměrných ROC křivek
+
 saveDataset - funkce sloužící k tvorbě jednotného datasetu z dat od jednotlivých pacientů
 
 
