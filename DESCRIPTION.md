@@ -54,9 +54,9 @@ netBlasticWorksp - naučené sítě ke klasifikaci osteoblastických lézí meto
 netLyticWorksp - naučené sítě ke klasifikaci osteolytických lézí metodou křížové validace 
 	               (kategorie 1 - ostatní typy tkáně, kategorie 2 - osteolytická léze) + dosažené výsledky
                  
-netMulticlassWorks - naučená síť ke klasifikaci osteoblastických i osteolytických lézí současně 
-                     (kategorie 0 - zdravá tkáň, kategorie 1 - osteolytická léze, kategorie 2 - osteoblastická léze)
-                     + dosažené výsledky
+netMulticlassWorksp - naučené sítě ke klasifikaci osteoblastických i osteolytických lézí současně 
+                      (kategorie 0 - zdravá tkáň, kategorie 1 - osteolytická léze, kategorie 2 - osteoblastická léze)
+                      + dosažené výsledky
 
 ------------------------------------------------------------------------------------------------------------------------
 ## Postup spouštění
@@ -64,7 +64,7 @@ netMulticlassWorks - naučená síť ke klasifikaci osteoblastických i osteolyt
 
 1) Spustit skript prepareDataset - změnit cestu k souborům pacientů!
                                  - využívá funkce getLesions, saveDataset
-3) Spustit skript netxxxxxCrossVal - provede augmentaci (funkce augmentDataset) a následně naučení modelů křížovou 
+3) Spustit skript netxxxxxCrossVal (podle typu modelu) - provede augmentaci (funkce augmentDataset) a následně naučení modelů křížovou 
    validací a výpočet úspěšnostních metrik (funkce perfScores a perfScoresVert)
    
 ### Klasifikace nových pacientů
