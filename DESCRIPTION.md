@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------------------------------------------------------
 ## Autor: Ondřej Nantl
 -----------------------------------------------------------------------------------------------------------------------
-Tento repozitář obsahuje následující zdrojové kódy (soubory s příponou .m):
+Tento repozitář obsahuje následující zdrojové kódy spustitelné v MATLAB (soubory s příponou .m):
 
 augmentDataset - funkce slouží k náhodné augmentaci objektů translací a rotací
 
