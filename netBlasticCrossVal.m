@@ -15,7 +15,7 @@ load('datasetPreprocessed.mat')
 % augmentace
 forCVLabels(forCVLabels==1) = 0;
 numOfAugObj = 3300;
-[forCVIms,forCVLabels,forCVStats,forCVVertID,forCVPatID] = augmentDataset_v3(forCVIms,...
+[forCVIms,forCVLabels,forCVStats,forCVVertID,forCVPatID] = augmentDataset(forCVIms,...
                  forCVLabels,forCVStats,forCVObjects,forCVVertID,forCVPatID,numOfAugObj);
 forCVLabels = categorical(forCVLabels);
 
