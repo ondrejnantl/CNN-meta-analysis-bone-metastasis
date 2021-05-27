@@ -9,6 +9,8 @@
 * Tento projekt byl vytvořen jako bakalářská práce na Fakultě elektrotechniky a komunikačních technologií na Vysokém
   učení technickém v Brně. 
 
+* Text této práce je také obsahem repozitáře - Ondrej_Nantl_BP.pdf - pouze česky
+
 * Pro detailnější popis souborů navštivte dokument DESCRIPTION.md - pouze česky
 
 ## EN
@@ -18,6 +20,8 @@
 
 * This project was created as a bachelor thesis at the Faculty of Electrical Engineering and Communication at Brno
   University of Technology.
+
+* Text of the thesis is also a part of this repository - Ondrej_Nantl_BP.pdf - only in Czech
 
 * For detailed description of files open DESCRIPTION.md - only in Czech
  
