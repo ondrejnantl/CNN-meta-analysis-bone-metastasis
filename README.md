@@ -1,4 +1,4 @@
-# meta-analysis-bone-lesions-BP
+# CNN-meta-analysis-bone-metastases
 
 ##  CZ
 * Tento repozitář byl vytvořen pro uložení zdrojových kódů vytvořených za účelem meta-analýzy kostních nádorových lézí
